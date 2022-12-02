@@ -97,7 +97,7 @@ make time-recursive
 ![image](https://user-images.githubusercontent.com/114371959/205405083-57c2ade4-1495-4a78-9096-a8deca242559.png)
 
 # Conclusion:
-From the results of the benchmarks above, We can conlude that the ***Iterative approach*** for ibonacci sequence take less time and space compared to ***Recursive approach.*** Although Recursive approach can be seen as more elegant, Iterative is the far more effective and appropriate method for Fibonacci sequence.
+From the results of the benchmarks above, We can conlude that the ***Iterative approach*** for Fibonacci sequence take less time and space compared to ***Recursive approach.*** Although Recursive approach can be seen as more elegant, Iterative is the far more effective and appropriate method for Fibonacci sequence.
 
 
 
