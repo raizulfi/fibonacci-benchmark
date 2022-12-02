@@ -55,7 +55,8 @@ to run the program, Excute the command below in your terminal:
 ```c
 make; ./main_test.out
 ```
-### Results:
+## Results:
+
 ![image](https://user-images.githubusercontent.com/114371959/205392893-5877c351-38a6-4614-997a-92398e804029.png)
 
 Both Iterative and Recursive method had the correct and same ouput. We'll be able to move on to benchmarking between them.
@@ -72,7 +73,7 @@ to run the time complexity, Excute the command below in your terminal:
 ```c
 make time-recursive; make time-iterative
 ```
-results:
+## results:
 
 ![image](https://user-images.githubusercontent.com/114371959/205400044-d14e8f8a-c688-4ccf-8de1-af202e6d6a0f.png)
 
@@ -90,7 +91,7 @@ make time-recursive
 ./main_b_space_recursive.out
 ```
 
-### Results:
+## Results:
 
 ![image](https://user-images.githubusercontent.com/114371959/205404595-3ef52b0c-dfe0-4457-ba17-7e03f42da0ee.png)
 ![image](https://user-images.githubusercontent.com/114371959/205405083-57c2ade4-1495-4a78-9096-a8deca242559.png)
