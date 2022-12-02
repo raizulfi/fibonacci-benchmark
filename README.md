@@ -52,7 +52,7 @@ I'll now be testing these codes and checking if they give the desirable output.
 
 ### How to run the code:
 to run the program, Excute the command below in your terminal:
-```
+```c
 make; ./main_test.out
 ```
 ### Results:
@@ -60,14 +60,48 @@ make; ./main_test.out
 
 Both Iterative and Recursive method had the correct and same ouput. We'll be able to move on to benchmarking between them.
 
-### Benchmarking
+# Benchmarking
 Now, we can we're able to benchmark the time and space complexity between the two approaches and conclude the faster method.
 
 ## Time complexity
-For this benchmark, i'll be demosrating for (Nth term) N=15 between the 2 approaches.
+For this benchmark, i'll be demosrating for (Nth term) N=40 between the 2 approaches.
 
 ### How to run the code:
 to run the time complexity, Excute the command below in your terminal:
+
+```c
+make time-recursive; make time-iterative
+```
+results:
+![image](https://user-images.githubusercontent.com/114371959/205400044-d14e8f8a-c688-4ccf-8de1-af202e6d6a0f.png)
+
+## Space complexity
+
+### How to run the code:
+to run the time complexity, Excute the command below in your terminal:
+
+```c
+make time-iterative
+./main_b_space_iterative.out
+```
+```c
+make time-recursive
+./main_b_space_recursive.out
+```
+
+![image](https://user-images.githubusercontent.com/114371959/205404595-3ef52b0c-dfe0-4457-ba17-7e03f42da0ee.png)
+![image](https://user-images.githubusercontent.com/114371959/205405083-57c2ade4-1495-4a78-9096-a8deca242559.png)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
