@@ -56,3 +56,7 @@ to run the program, Excute the command below in your terminal:
 make; ./main_test.out
 ```
 ### Results:
+![image](https://user-images.githubusercontent.com/114371959/205392893-5877c351-38a6-4614-997a-92398e804029.png)
+
+
+
