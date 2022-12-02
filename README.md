@@ -58,5 +58,18 @@ make; ./main_test.out
 ### Results:
 ![image](https://user-images.githubusercontent.com/114371959/205392893-5877c351-38a6-4614-997a-92398e804029.png)
 
+Both Iterative and Recursive method had the correct and same ouput. We'll be able to move on to benchmarking between them.
+
+### Benchmarking
+Now, we can we're able to benchmark the time and space complexity between the two approaches and conclude the faster method.
+
+## Time complexity
+For this benchmark, i'll be demosrating for (Nth term) N=15 between the 2 approaches.
+
+### How to run the code:
+to run the time complexity, Excute the command below in your terminal:
+
+
+
 
 
