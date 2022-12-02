@@ -1,6 +1,6 @@
 # Fibonacci-Benchmark
   
-comparing Iterative vs Recursive approach by their time complexity and space complexity on finding the (Nth) Fibonacci number
+Comparing Iterative vs Recursive approach by their time complexity and space complexity on finding the (Nth) Fibonacci number.
 
 ## What is a Fibonacci sequence?
  
@@ -10,8 +10,8 @@ The Diagram below will help give a better understanding on how Fibonacci sequenc
 
 ![The Fibonacci Sequence - Shalom Education](https://www.shalom-education.com/wp-content/uploads/2020/12/image-96.png)
 
-## The 2 Approaches to fibonacci Sequence:
-- ***Iterative*** : looping the steps again & again until it reaches the end
+## The 2 Approaches to Fibonacci sequence:
+- ***Iterative*** : Looping the steps again & again until it reaches the end
 ```c
 int fibonacciIterative(int N){
 
@@ -51,7 +51,7 @@ int fibonacciRecursive(int N){
 I'll now be testing these codes and checking if they give the desirable output.
 
 ### How to run the code:
-to run the program, Excute the command below in your terminal:
+to run the program, Execute the command below in your terminal:
 ```c
 make; ./main_test.out
 ```
@@ -59,16 +59,16 @@ make; ./main_test.out
 
 ![image](https://user-images.githubusercontent.com/114371959/205392893-5877c351-38a6-4614-997a-92398e804029.png)
 
-Both Iterative and Recursive method had the correct and same ouput. We'll be able to move on to benchmarking between them.
+Both Iterative and Recursive method had the correct and same output. We'll be able to move on to benchmarking between them.
 
 # Benchmarking
-Now, we can we're able to benchmark the time and space complexity between the two approaches and conclude the faster method.
+Now, we're able to benchmark the time and space complexity between the two approaches and conclude the faster method.
 
 ## Time complexity
-For this benchmark, i'll be demosrating for (Nth term) N=40 between the 2 approaches.
+For this benchmark, i'll be demonstrating for (Nth term) N=40 between the 2 approaches.
 
 ### How to run the code:
-to run the time complexity, Excute the command below in your terminal:
+to run the time complexity, Execute the command below in your terminal:
 
 ```c
 make time-recursive; make time-iterative
@@ -80,7 +80,7 @@ make time-recursive; make time-iterative
 ## Space complexity
 
 ### How to run the code:
-to run the time complexity, Excute the command below in your terminal:
+to run the time complexity, Execute the command below in your terminal:
 
 ```c
 make time-iterative
@@ -97,7 +97,7 @@ make time-recursive
 ![image](https://user-images.githubusercontent.com/114371959/205405083-57c2ade4-1495-4a78-9096-a8deca242559.png)
 
 # Conclusion:
-From the Results of the benchmarks above, We can conlude that the ***Iterative approach*** for fibonacci sequence take less time and space compared to ***Recurisive approach.*** Although Recursive approach can be seen as more elegant, Iterative is the more effective and appropriate method for fibonacci sequence.
+From the results of the benchmarks above, We can conlude that the ***Iterative approach*** for ibonacci sequence take less time and space compared to ***Recursive approach.*** Although Recursive approach can be seen as more elegant, Iterative is the far more effective and appropriate method for Fibonacci sequence.
 
 
 
